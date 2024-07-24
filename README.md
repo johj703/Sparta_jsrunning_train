@@ -13,7 +13,7 @@
 ```javascript
 1. let uninitialized;
 console.log(uninitialized);
-// 결과값 => null
+// 결과값 => undefined
 // => 이유는 uninitialized 변수가 선언만 되었지 값이 할당되지 않았기 때문에 콘솔에 null이 뜨는 것이라고 생각 합니다.
 
 
@@ -99,7 +99,7 @@ HyunJun's 답
 function oddEven(num) {
   if (num % 2 == 1) {
     console.log("짝수");
-  } else if (num % 2 == 0) {
+  } else {
     console.log("홀수");
   }
 }
