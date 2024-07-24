@@ -14,7 +14,7 @@
 1. let uninitialized;
 console.log(uninitialized);
 // 결과값 => undefined
-// => 이유는 uninitialized 변수가 선언만 되었지 값이 할당되지 않았기 때문에 콘솔에 null이 뜨는 것이라고 생각 합니다.
+// => 이유는 uninitialized 변수가 선언만 되었지 값이 할당되지 않았기 때문에 콘솔에 undefined이 뜨는 것이라고 생각 합니다.
 
 
 2. const apple = "사과";
